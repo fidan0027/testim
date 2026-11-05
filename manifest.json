@@ -1,5 +1,6 @@
 {
   "name": "Film Makinesi (TR)",
+  "id": "filmmakinesi-tr",
   "version": "1.0.0",
   "description": "Film Makinesi için Nuvio yerel kazıyıcı (findMovie.php'nin JavaScript karşılığı).",
   "author": "",
@@ -10,11 +11,17 @@
       "description": "Türkçe dublaj/altyazılı filmler (HLS)",
       "version": "1.0.0",
       "author": "",
-      "supportedTypes": ["movie"],
+      "supportedTypes": [
+        "movie"
+      ],
       "filename": "providers/filmmakinesi.js",
       "enabled": true,
-      "formats": ["m3u8"],
-      "contentLanguage": ["tr"]
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr"
+      ]
     }
   ]
 }
